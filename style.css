@@ -1,0 +1,183 @@
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hat {
+    background-color: red;
+    width: 40px;
+    height: 60px;
+    border-radius: 10%;
+    position: relative;
+    top: 100px;
+    right: 25px;
+    rotate: 150deg;
+}
+
+.brim {
+    background-color: red;
+    width: 70px;
+    height: 10px;
+    rotate: 150deg;
+    top: 87px;
+    position: relative;
+    right: 30px;
+}
+
+
+.head {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eye-container {
+    display: flex;
+    gap: 15px;
+   
+}
+
+.eyes {
+background-color: black;
+height: 10px;
+width: 10px;
+position: relative;
+top: 20px;
+border-radius: 100%;
+left: 30px;
+}
+
+.nose {
+    background-color: orange;
+    height: 30px;
+    width: 10px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    right: px;
+    rotate: 120deg;
+}
+
+.smile {
+    background-color: white;
+    position: relative;
+  top: 55px;
+  right: 45px;
+  width: 40px;
+  height: 10px;
+  border-bottom: 5px solid #000;
+  border-radius: 0 0 60px 60px;
+  border-top: none;
+
+}
+
+
+
+.body-container{
+    display: flex;
+}
+
+.body {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    top: 45px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+
+    .button {
+        background-color: red;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    .left-hand {
+        background-color: brown;
+        width: 10px;
+        height: 120px;
+        position: relative;
+        rotate: 45deg;
+        top: 70px;
+        right: 10px;
+    }
+
+    .lfingers1, .lfingers2 {
+        background-color: brown;
+        width: 5px;
+        height: 35px;
+    }
+
+    .lfingers1 {
+        position: relative;
+        top: 35px;
+        right: 32px;
+        rotate: 5deg;
+    }
+
+    .lfingers2{
+        position: relative;
+        right: 30px;
+        rotate: 110deg;
+        bottom: 40px;
+    }
+
+   
+
+    .right-hand {
+        background-color: brown;
+        width: 10px;
+        height: 100px;
+        position: relative;
+        rotate: 135deg;
+        left: 210px;
+        top: 80px;
+        
+    }
+
+    .rfingers1, .rfingers2 {
+        background-color: brown;
+        width: 5px;
+        height: 35px;
+    }
+
+    .rfingers1 {
+        position: relative;
+        left: 220px;
+        rotate: 60deg;
+    }
+
+    .rfingers2 {
+        position: relative;
+        left: 220px;
+    }
+
+.bottom {
+        background-color: white;
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+        }
+
+.snowman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
